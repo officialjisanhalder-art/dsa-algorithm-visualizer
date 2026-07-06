@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DSA Visualizer | Sorting Algorithms</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <span class="bracket">{</span> DSA Visualizer <span class="bracket">}</span>
+    </div>
+    <p class="tagline">Watch algorithms come to life 🚀</p>
+  </header>
+
+  <!-- Main App -->
+  <main>
+
+    <!-- Controls Panel -->
+    <div class="controls">
+
+      <div class="control-group">
+        <label for="algorithm">Algorithm</label>
+        <select id="algorithm">
+          <option value="bubble">Bubble Sort</option>
+          <option value="selection">Selection Sort</option>
+          <option value="insertion">Insertion Sort</option>
+          <option value="merge">Merge Sort</option>
+          <option value="quick">Quick Sort</option>
+        </select>
+      </div>
+
+      <div class="control-group">
+        <label for="arraySize">Array Size: <span id="sizeVal">30</span></label>
+        <input type="range" id="arraySize" min="10" max="80" value="30" />
+      </div>
+
+      <div class="control-group">
+        <label for="speed">Speed: <span id="speedVal">Medium</span></label>
+        <input type="range" id="speed" min="1" max="5" value="3" />
+      </div>
+
+      <div class="btn-group">
+        <button id="generateBtn" class="btn btn-secondary">🔀 New Array</button>
+        <button id="startBtn" class="btn btn-primary">▶ Start</button>
+        <button id="stopBtn" class="btn btn-danger" disabled>⏹ Stop</button>
+      </div>
+
+    </div>
+
+    <!-- Info Bar -->
+    <div class="info-bar">
+      <div class="stat">
+        <span class="stat-label">Comparisons</span>
+        <span class="stat-value" id="comparisons">0</span>
+      </div>
+      <div class="stat">
+        <span class="stat-label">Swaps</span>
+        <span class="stat-value" id="swaps">0</span>
+      </div>
+      <div class="stat">
+        <span class="stat-label">Status</span>
+        <span class="stat-value" id="status">Ready</span>
+      </div>
+      <div class="stat">
+        <span class="stat-label">Time Complexity</span>
+        <span class="stat-value" id="complexity">O(n²)</span>
+      </div>
+    </div>
+
+    <!-- Visualizer Area -->
+    <div class="visualizer" id="visualizer">
+      <!-- bars go here via JS -->
+    </div>
+
+    <!-- Legend -->
+    <div class="legend">
+      <div class="legend-item"><span class="dot default"></span> Unsorted</div>
+      <div class="legend-item"><span class="dot comparing"></span> Comparing</div>
+      <div class="legend-item"><span class="dot swapping"></span> Swapping</div>
+      <div class="legend-item"><span class="dot sorted"></span> Sorted</div>
+      <div class="legend-item"><span class="dot pivot"></span> Pivot</div>
+    </div>
+
+    <!-- Algorithm Info Cards -->
+    <div class="algo-cards">
+      <div class="algo-card" id="infoCard">
+        <h3 id="algoName">🫧 Bubble Sort</h3>
+        <p id="algoDesc">Repeatedly compares adjacent elements and swaps them if they're in the wrong order. Simple but slow for large arrays.</p>
+        <div class="complexity-table">
+          <div><span>Best Case</span><code id="best">O(n)</code></div>
+          <div><span>Average Case</span><code id="avg">O(n²)</code></div>
+          <div><span>Worst Case</span><code id="worst">O(n²)</code></div>
+          <div><span>Space</span><code id="space">O(1)</code></div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>Built with ❤️ by a fellow IT student · 2024 · DSA Visualizer</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
