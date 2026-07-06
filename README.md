@@ -7,7 +7,7 @@
 
 A web-based visualizer to watch sorting algorithms run step by step — built to make DSA easier to understand!
 
-I made this project while studying Data Structures in my B.Tech IT course because I kept getting confused about how sorting actually works internally. Watching it visually made everything click.
+I built this while self-learning Data Structures & Algorithms because I kept getting confused about how sorting actually works internally. Reading textbooks wasn't enough — watching it visually made everything click.
 
 ---
 
@@ -111,4 +111,4 @@ Feel free to fork this and add more algorithms! Open a PR and I'll review it.
 
 ---
 
-*Built as a learning project during B.Tech IT — 2nd Year*
+*Built as a self-learning project while preparing for B.Tech — by Jisan Halder*

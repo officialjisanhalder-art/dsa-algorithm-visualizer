@@ -2,7 +2,8 @@
   DSA Visualizer - Main Script
   Hey! This is the JS file that handles all the sorting animations.
   I learned a lot building this - especially merge sort lol that was painful.
-  
+  Building this before college so I'm already ahead of the curve 😎
+
   Algorithms covered:
   - Bubble Sort
   - Selection Sort
