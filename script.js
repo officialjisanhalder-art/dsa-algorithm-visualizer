@@ -1,10 +1,10 @@
 /*
   DSA Visualizer - Main Script
-  Hey! This is the JS file that handles all the sorting animations.
-  I learned a lot building this - especially merge sort lol that was painful.
-  Building this before college so I'm already ahead of the curve 😎
+  Author: Jisan Halder
+  Handles all sorting animations using async/await delays.
+  Merge sort was the toughest to get right lol.
 
-  Algorithms covered:
+  Algorithms:
   - Bubble Sort
   - Selection Sort
   - Insertion Sort
