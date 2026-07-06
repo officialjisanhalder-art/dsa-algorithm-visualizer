@@ -1,14 +1,21 @@
 # 📊 DSA Algorithm Visualizer
 
+![GitHub Pages](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-6c63ff?style=for-the-badge&logo=github)
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
 A web-based visualizer to watch sorting algorithms run step by step — built to make DSA easier to understand!
 
 I made this project while studying Data Structures in my B.Tech IT course because I kept getting confused about how sorting actually works internally. Watching it visually made everything click.
 
 ---
 
-## 🎥 Demo
+## 🎥 Live Demo
 
-> Open `index.html` in your browser — no installations needed!
+🔗 **[Try it here → officialjisanhalder-art.github.io/dsa-algorithm-visualizer](https://officialjisanhalder-art.github.io/dsa-algorithm-visualizer/)**
+
+> Or clone and open `index.html` locally — no installations needed!
 
 ---
 
